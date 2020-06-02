@@ -1,0 +1,23 @@
+<div class="container-fluid">
+<h1 style="text-align: center;color:coral">Table of Employees INFO</h1>
+<div class="container">
+<table class="table table-bordered">
+<thead style="color:rgb(202, 17, 17)">
+<td>Id</td> 
+<td>Name</td>   
+<td>Age</td>   
+<td>Gender</td>     
+ </thead>
+<tr *ngFor="let Employee of Employees">
+<td>{{Employee.id}}</td>
+<td>{{Employee.name|hello:Employee.gender}}</td>
+<td>{{Employee.age}}</td>
+<td>{{Employee.gender}}</td>
+</tr>
+</table>
+</div>
+<!-- <button routerLink="/c1" routerLinkActive="active">C1-Component</button> -->
+</div>
+<app-c1></app-c1>
+
+<router-outlet></router-outlet>

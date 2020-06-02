@@ -1,0 +1,99 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "userName": "",
+      "passWord": "",
+      "confirmPassword": "",
+      "id": 2
+    },
+    {
+      "userName": null,
+      "passWord": null,
+      "confirmPassword": null,
+      "id": 3
+    },
+    {
+      "userName": "venkat",
+      "passWord": "1234",
+      "confirmPassword": "1234",
+      "id": 4
+    },
+    {
+      "userName": "venkat",
+      "passWord": "vr123",
+      "confirmPassword": "vr123",
+      "id": 5
+    },
+    {
+      "userName": "adsa",
+      "passWord": "1234",
+      "confirmPassword": "1234",
+      "id": 6
+    },
+    {
+      "userName": null,
+      "passWord": null,
+      "confirmPassword": null,
+      "id": 7
+    },
+    {
+      "userName": "ravi",
+      "passWord": "1234",
+      "confirmPassword": "1234",
+      "id": 8
+    },
+    {
+      "userName": "venkat",
+      "passWord": "vr123",
+      "confirmPassword": "vr123",
+      "id": 9
+    },
+    {
+      "userName": "venkat",
+      "passWord": "vr123",
+      "confirmPassword": "vr123",
+      "email": "venkat.vv564@gmail.com",
+      "subscribe": false,
+      "id": 10
+    },
+    {
+      "userName": "venkat",
+      "passWord": "vr123",
+      "confirmPassword": "vr123",
+      "email": "venkat.vv564@gmail.com",
+      "subscribe": true,
+      "id": 11
+    },
+    {
+      "userName": "venkat",
+      "passWord": "vr123",
+      "confirmPassword": "vr123",
+      "email": "uisdsdshds@ukjhjs",
+      "subscribe": true,
+      "id": 12
+    },
+    {
+      "userName": "xzxz",
+      "passWord": "1234",
+      "confirmPassword": "1234",
+      "email": "",
+      "subscribe": false,
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
